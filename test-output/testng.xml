@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestAll" parallel="none">
+
+	<test name="automationFramework">
+		<classes>
+			<class name="automationFramework.PageObjectModel" />
+			<class name="automationFramework.Apache_POI_TC" />
+			<class name="TestDownloadPDF" />
+		</classes>
+	</test>
+
+</suite>
